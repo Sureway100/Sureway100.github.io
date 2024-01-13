@@ -4807,3 +4807,27 @@ body.is-preload #intro:not(.hidden) + #header + #nav {
     visibility: visible;
   }
 }
+
+/* this is for carousel buttons */
+#carousel-container {
+  width: 300px;
+  overflow: hidden;
+}
+
+#image-carousel {
+  width: 100%;
+  height: 100%;
+  transition: transform 0.5s ease-in-out;
+}
+
+.carousel-image {
+  width: 100%;
+  height: 100%;
+  object-fit:contain;
+}
+
+#prevBtn,
+#nextBtn {
+  cursor: pointer;
+  font-size: 24px;
+}

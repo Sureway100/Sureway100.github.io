@@ -24,8 +24,9 @@
 		<!-- Intro -->
 		<div id="intro">
 			<h1>MY PORTFOLIO</h1>
-			<p>I'm a Software engineer with over 3 years' experience working in both the
-				public and private sectors. I'm Diplomatic, personable, adept at managing sensitive situations. My name is Nwachukwu David, I am
+			<p>I'm a mobile developer with over 2 years' experience working in both the
+				public and private sectors. I'm Diplomatic, personable, adept at managing sensitive situations. My name
+				is Nwachukwu David, I am
 				seeking a challenging role where I would grow and bring my skills in
 				research, troubleshooting and problem solving to help meet organizational objectives within set
 				timeframes and to a high quality standard.</p>
@@ -42,15 +43,17 @@
 		<!-- Nav -->
 		<nav id="nav">
 			<ul class="links">
-				<li class="active"><a href="index.html">General Projects</a></li>
+				<li class="active"><a href="index.html">Android Projects</a></li>
 				<li><a href="generic.html">Flutter Projects</a></li>
 				<!-- <li><a href="elements.html">Elements Reference</a></li> -->
 			</ul>
 			<ul class="icons">
 				<!-- <li><a href="#" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
 				<li><a href="#" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li> -->
-				<li><a href="https://www.linkedin.com/in/nwachukwu-david-996a37185" class="icon brands fa-linkedin"><span class="label">LinkedIn</span></a></li>
-				<li><a href="https://github.com/Sureway100" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
+				<li><a href="https://www.linkedin.com/in/nwachukwu-david-996a37185"
+						class="icon brands fa-linkedin"><span class="label">LinkedIn</span></a></li>
+				<li><a href="https://github.com/Sureway100" class="icon brands fa-github"><span
+							class="label">GitHub</span></a></li>
 			</ul>
 		</nav>
 
@@ -60,9 +63,9 @@
 			<!-- Featured Post -->
 			<article class="post featured">
 				<header class="major">
-					<span class="date">Febuary 22, 2019</span>
+					<span class="date">Febuary 22, 2020</span>
 					<h2><a href="#">A GREAT JOURNEY STARTED</a></h2>
-					<p>MongoDB || Express || React || Node.</p>
+					<p>Java || Kotlin || Android Studio || VsCode.</p>
 				</header>
 				<a href="#" class="image main"><img src="images/img001.jpg" alt="" /></a>
 				<ul class="actions special">
@@ -72,96 +75,116 @@
 
 			<!-- Posts -->
 			<section class="posts">
+				<!-- --------------------------------------------------------- -->
 				<article>
 					<header>
-						<h2><a href="#">Weather<br />
+						<h2><a href="#">Planet<br />
 								Application</a></h2>
 					</header>
-					<a href="#" class="image fit"><img src="images/openWeather.PNG" alt="screenshot" /></a>
-					<h6>HTML | CSS | JS</h6>
-					<p>With HTML, CSS and JavaScript, was able to create a simple and free weather API from
-						<b>openWeatherMap,</b> having access to current weather
-						information in any city or country in the world.
+					<a href="#" class="image fit">
+						<!-- <img src="images/openWeather.PNG" alt="screenshot" /> -->
+						<div id="carousel-container">
+							<div id="image-carousel1"></div>
+						</div>
+					</a>
+				
+					<button id="prevBtn" onclick="prevSlide1()">&#10094;</button>
+					<button id="nextBtn" onclick="nextSlide1()">&#10095;</button>
+					<br>
+					<h6>Java | Kotlin</h6>
+					<p> This planet project is a simple use of android listview (an image view and two textviews) 
+						with a custom adapter. it also exhibits the on row click on each listview item 
+						but this using the toast message indicating it has been clicked.
+						
 					</p>
 					<ul class="actions special">
-						<li><a href="https://github.com/Sureway100/weather_api" target="_blank" class="button">SEE
+						<li><a href="https://github.com/Sureway100/mobile-development/tree/main/java/6_PlannetAppWithCustomAdapter/main" target="_blank" class="button">SEE
 								CODE</a></li>
 					</ul>
 				</article>
+				<!-- -------------------------------------------------------------- -->
 				<article>
 					<header>
-						<h2><a href="#">Pie<br />
-								Chart</a></h2>
+						<h2><a href="#">Random Number<br />
+								With Intent</a></h2>
 					</header>
-					<a href="#" class="image fit"><img src="images/pieChart.PNG" alt="screenshot" /></a>
-					<h6>HTML | CSS | JS</h6>
-					<p> A bar chart and line graph is displayed automatically according to the values insert in the
-						dashboard. This can visually help students assess his overall performance so far.
+					<a href="#" class="image fit">
+						<!-- <img src="images/openWeather.PNG" alt="screenshot" /> -->
+						<div id="carousel-container">
+							<div id="image-carousel2"></div>
+						</div>
+					</a>
+
+					<button id="prevBtn" onclick="prevSlide2()">&#10094;</button>
+					<button id="nextBtn" onclick="nextSlide2()">&#10095;</button>
+					<br />
+					<h6>Java | Kotlin</h6>
+					<p> The random app was developed with the key concept of understanding the android intent class. Navigating 
+						from one activity to another or to another external application, carrying a message along. 
+						And also applying regular inbuilt java class like math. 
+					</p>
+					<ul class="actions special">
+						<li><a href="https://github.com/Sureway100/mobile-development/tree/main/java/5_ShareRandomNumber/main" target="_blank" class="button">SEE
+								CODE</a></li>
+					</ul>
+				</article>
+
+				<!-- ---------------------------------------------------------------- -->
+				<article>
+					<header>
+						<h2><a href="#">Mile to KM/M<br />
+								Converter</a></h2>
+					</header>
+					<a href="#" class="image fit">
+						<!-- <img src="images/openWeather.PNG" alt="screenshot" /> -->
+						<div id="carousel-container">
+							<div id="image-carousel3"></div>
+						</div>
+					</a>
+				
+					<button id="prevBtn" onclick="prevSlide3()">&#10094;</button>
+					<button id="nextBtn" onclick="nextSlide3()">&#10095;</button>
+					<br />
+					<h6>Java | Kotlin</h6>
+					<p> This Miles to either Kilometers or Meters helped me play around with android views, understanding how to use method to 
+						get information from users and as well set the corresponding answer to the textView. Also the understanding on how to 
+						use the button onsetClick method.
 					</p>
 					<ul class="actions special">
 						<li><a href="hhttps://github.com/Sureway100/bar-line-chart" target="_blank" class="button">SEE
 								CODE</a></li>
 					</ul>
 				</article>
+				<!-- ---------------------------------------------------------------- -->
+				<article>
+					<header>
+						<h2><a href="#">Did You Know<br />
+								App</a></h2>
+					</header>
+					<a href="#" class="image fit">
+						<!-- <img src="images/openWeather.PNG" alt="screenshot" /> -->
+						<div id="carousel-container">
+							<div id="image-carousel4"></div>
+						</div>
+					</a>
 				
-				<article>
-					<header>
-						<h2><a href="#">Analog<br />
-							Clock</a></h2>
-					</header>
-					<a href="#" class="image fit"><img src="images/analogClock.PNG" alt="screenshot" /></a>
-					<h6>HTML | CSS | JS</h6>
-					<p>With HTML, CSS and just JavaScript, was able to create a simple real time analog clock. Has its
-						hour, minute and second hand, including the one second normal movement. </p>
+					<button id="prevBtn" onclick="prevSlide4()">&#10094;</button>
+					<button id="nextBtn" onclick="nextSlide4()">&#10095;</button>
+					<br />
+					<h6>Java | Kotlin</h6>
+					<p> This is an app called DidYouKnow, where i demonstrated my understanding of using navigation and viewPager. 
+						A navigation to move between different areas like education, politics, money and I used the viewPager to 
+						swipe between what information about that area i want to share. It also contains the tabLayout.  
+					</p>
 					<ul class="actions special">
-						<li><a href="https://github.com/Sureway100/Analog-clock" target="_blank" class="button">SEE
-								CODE</a></li>
-					</ul>
-				</article>
-				<article>
-					<header>
-						<h2><a href="#">Random<br />
-								Quotes</a></h2>
-					</header>
-					<a href="#" class="image fit"><img src="images/randomQuote.PNG" alt="screenshot" /></a>
-					<h6>HTML | CSS | JS</h6>
-					<p>A basic quote generator with just HTML,CSS and JavaScript. Each time the generate quote button is
-						clicked, a new quote is displayed</p>
-					<ul class="actions special">
-						<li><a href="https://github.com/Sureway100/Js-random-quotes" target="_blank" class="button">SEE
+						<li><a href="https://github.com/Sureway100/mobile-development/tree/main/kotlin/1_DidYouKnowApp/main" target="_blank" class="button">SEE
 								CODE</a></li>
 					</ul>
 				</article>
 
-				<article>
-					<header>
-						<h2><a href="#">Rate<br />
-								Football Stars</a></h2>
-					</header>
-					<a href="#" class="image fit"><img src="images/react_two.PNG" alt="screenshot" /></a>
-					<h6>REACT</h6>
-					<p>Though this is read only, because the data is static. But it uses the concept of react reusable component. Didnt
-						to recreate all these individually, just alter or edit the rates for each player </p>
-					<ul class="actions special">
-						<li><a href="https://github.com/Sureway100/react_two" target="_blank" class="button">SEE
-								CODE</a></li>
-					</ul>
-				</article>
-				<article>
-					<header>
-						<h2><a href="#">Static<br />
-								React</a></h2>
-					</header>
-					<a href="#" class="image fit"><img src="images/react_one.PNG" alt="screenshot" /></a>
-					<h6>REACT</h6>
-					<p>React is a declarative, efficient, and flexible JavaScript library for building user interfaces.
-						It lets you compose complex UIs from small and isolated pieces of code called “components”.</p>
-					<ul class="actions special">
-						<li><a href="https://github.com/Sureway100/react_one" target="_blank" class="button">SEE
-								CODE</a></li>
-					</ul>
-				</article>
 
+			
+			
 			</section>
 
 			<!-- Footer -->
@@ -221,12 +244,14 @@
 				<section>
 					<h3>Social</h3>
 					<ul class="icons alt">
-						<li><a href="https://twitter.com/davidsureway40" class="icon brands alt fa-twitter"><span class="label">Twitter</span></a></li>
+						<li><a href="https://twitter.com/davidsureway40" class="icon brands alt fa-twitter"><span
+									class="label">Twitter</span></a></li>
 						<li><a href="#" class="icon brands alt fa-facebook-f"><span class="label">Facebook</span></a>
 						</li>
 						<li><a href="#" class="icon brands alt fa-instagram"><span class="label">Instagram</span></a>
 						</li>
-						<li><a href="https://github.com/Sureway100" class="icon brands alt fa-github"><span class="label">GitHub</span></a></li>
+						<li><a href="https://github.com/Sureway100" class="icon brands alt fa-github"><span
+									class="label">GitHub</span></a></li>
 					</ul>
 				</section>
 			</section>
@@ -250,6 +275,7 @@
 	<script src="assets/js/breakpoints.min.js"></script>
 	<script src="assets/js/util.js"></script>
 	<script src="assets/js/main.js"></script>
+	<script src="assets/js/carousel.js"></script>
 
 </body>
 
